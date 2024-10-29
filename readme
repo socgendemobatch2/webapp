@@ -1,0 +1,40 @@
+    5  sudo apt  install docker.io
+    6  clear
+    7  apt  update && sudo apt  install docker.io
+    8  sudo apt  update && sudo apt  install docker.io
+    9  clear
+   10  which docker
+   11  pwd
+   12  docker run -itd -p 8081:8081 --name nexus sonatype/nexus3
+   13  docker ps
+   14  sudo chown  nexus:nexus  /var/run/docker.sock
+   15  docker ps
+   16  docker run -itd -p 8081:8081 --name nexus sonatype/nexus3
+   17  clear
+   18  docker ps
+   19  docker exec -it nexus cat /nexus-data/admin.password
+   20  history
+   21  clear
+   22  git clonehttps://github.com/socgendemobatch2/webapp.git
+   23  git clone  https://github.com/socgendemobatch2/webapp.git
+   24  cd webapp/
+   25  clear
+   26  ls -lrt
+   27  pwd
+   28  mvn
+   29  sudo apt install maven
+   30  clear
+   31  mvn  clean package
+   32  clear
+   33  git pull
+   34  mvn  clean package
+   35  clear
+   36  mvn  clean deploy
+   37  clear
+   38  git pull
+   39  mvn  clean deploy
+   40  clear
+   41  git pull
+   42  mvn -s settings.xml clean deploy
+   43  vi pom.xml 
+   44  mvn -s settings.xml clean deploy
