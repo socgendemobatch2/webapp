@@ -72,4 +72,20 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>socgenappb2-releases</id>
+      <name>socgenappb2-releases</name>
+      <url>http://20.117.227.171:8081/repository/socgenappb2-releases/</url>
+      <layout>default</layout>
+    </repository>
+    <snapshotRepository>
+      <uniqueVersion>true</uniqueVersion>
+      <id>socgenappb2-snapshots</id>
+      <name>socgenappb2-snapshots</name>
+      <url>http://20.117.227.171:8081/repository/socgenappb2-snapshots/</url>
+      <layout>legacy</layout>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
